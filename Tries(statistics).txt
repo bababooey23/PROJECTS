@@ -1,0 +1,25 @@
+1 letter guesses -
+34
+49
+29
+30
+92
+
+2 letter guesses -
+1,551
+3,341
+726
+2,239
+686
+
+3 letter guesses -
+2,064(really rare)
+106,891
+51,362
+148,216
+213,447
+
+4 letter guesses -
+2,508,250
+7,957,547
+3,740,476
