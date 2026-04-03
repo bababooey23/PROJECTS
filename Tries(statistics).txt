@@ -1,25 +1,52 @@
-1 letter guesses -
+1 letter guesses (really fast) -
 34
 49
 29
 30
 92
+72
+68
+8
+11
+4 (insane)
+6
 
-2 letter guesses -
-1,551
-3,341
+2 letter guesses (fast) -
+2 k
+3 k
 726
-2,239
+2 k
 686
+5 k
+3 k
+2 k
+8 k
+454
 
-3 letter guesses -
-2,064(really rare)
-106,891
-51,362
-148,216
-213,447
+3 letter guesses (usual) -
+2 k
+107 k
+51 k
+148 k
+213 k
+46 k
+290 k
+229 k
+49 k
+37 k
+499 k
 
-4 letter guesses -
-2,508,250
-7,957,547
-3,740,476
+4 letter guesses (slow) -
+2 m
+8 m
+3 m
+2 m
+17 m (wow)
+8 m
+2 m
+4 m
+9 m
+1 m
+
+5 letter guesses (snailful) -
+100 m+ (takes too much time, in theory should take 200-800 million tries)
