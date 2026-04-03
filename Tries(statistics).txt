@@ -11,6 +11,9 @@
 4 (insane)
 6
 
+average - 37
+(doesnt seem like a stable number)
+
 2 letter guesses (fast) -
 2 k
 3 k
@@ -22,6 +25,8 @@
 2 k
 8 k
 454
+
+average - 3 k
 
 3 letter guesses (usual) -
 2 k
@@ -36,6 +41,8 @@
 37 k
 499 k
 
+average - 152 k
+
 4 letter guesses (slow) -
 2 m
 8 m
@@ -47,6 +54,8 @@
 4 m
 9 m
 1 m
+
+average - 6 m
 
 5 letter guesses (snailful) -
 100 m+ (takes too much time, in theory should take 200-800 million tries)
