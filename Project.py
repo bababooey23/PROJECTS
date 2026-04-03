@@ -1,16 +1,18 @@
 import random
 
 loops = 1
+points = 0
 
 while loops > 0:
     actualword = input("\nEnter a word: ")
-    betchoice = input("Wanna bet?(yes|no) ")
+    betchoice = input("You only get points by betting, wanna bet? (yes|no) ")
     if betchoice == "yes":
         guessbet = input("It would guess in less tries than ")
     wordlength = len(actualword)
     fullword = []
     i = 0
     schet = 0
+    multiplier = 0
 
     while True:
 
@@ -35,22 +37,53 @@ while loops > 0:
             print("It turned out slower.")
     if betchoice == "yes":
         if wordlength == 1:
+            if int(schet) < 37:
+                points = points + 1
+                print("Gained 1 point.")
+
             if int(guessbet) < 25:
                 print("You're pretty hopeful.")
+                if int(guessbet) > schet:
+                    multiplier = 2
         if wordlength == 2:
+            if int(schet) < 3000:
+                points = points + 10
+                print("Gained 10 points.")
+
             if int(guessbet) < 1000:
                 print("You're pretty hopeful.")
+                if int(guessbet) > schet:
+                    multiplier = 2
         if wordlength == 3:
+            if int(schet) < 150000:
+                points = points + 100
+                print("Gained 100 points.")
+
             if int(guessbet) < 50000:
                 print("You're pretty hopeful.")
+                if int(guessbet) > schet:
+                    multiplier = 2
         if wordlength == 4:
+            if int(schet) < 6000000:
+                points = points + 1000
+                print("Gained 1,000 points.")
+
             if int(guessbet) < 1000000:
                 print("You're pretty hopeful.")
+                if int(guessbet) > schet:
+                    multiplier = 2
         if wordlength > 4:
+            if int(guessbet) < 400000000:
+                points = points + 10000
+                print("Gained 10,000 points. Was it worth the wait?")
+
             if int(guessbet) < 10000000:
                 print("You're pretty hopeful.")
+                if int(guessbet) > schet:
+                    multiplier = 2
+    print("\nYou got ", points, " points.")
     loops = loops - 1
-    loopchoice = input("Wanna go again?(yes|no) ")
+    loopchoice = input("\nWanna go again?(yes|no) ")
     if loopchoice == "yes":
         loops = loops + 1
     else:
