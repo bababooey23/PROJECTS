@@ -2,7 +2,7 @@ import random
 
 loops = 1
 points = 0
-yestypes = ["yes","yrs","tes","ys","yea","yez","es","yews","yres","res","twa","yse","fuhyea","yah","yessir","yeah"]
+yestypes = ["yes","yrs","tes","ys","yea","yez","es","yews","yres","res","twa","yse","fuhyea","yah","yessir","yeah","yeh","yap","yep","mhm","yup"]
 yestypestoo = set(yestypes)
 
 while loops > 0:
